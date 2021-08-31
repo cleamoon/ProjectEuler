@@ -10,7 +10,6 @@ def calc(n):
         if p % j == 0:
             q += j
     if n == q and n != p:
-        print(n)
         return n
     else:
         return 0
